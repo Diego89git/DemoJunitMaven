@@ -23,7 +23,7 @@ public class MetodosTest {
         int a = 4;
         int b = 5;
         Metodos instance = new Metodos();
-        int expResult = 10;
+        int expResult = 9;
         int result = instance.suma(a, b);
         assertEquals(expResult, result);
     }
